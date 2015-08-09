@@ -1,9 +1,10 @@
+<% content_for :subnav do %>
+  <%#= render 'actions' %>
+<% end %>
+
 <section id='records'>
   <%= render 'records' %>
 </section>
-<aside id='actions'>
-  <%= render 'actions' %>
-</aside>
 
 <% content_for :stylesheets do %>
   <%= stylesheet_link_tag 'refinery/copywriting/backend' %>
